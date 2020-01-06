@@ -101,3 +101,9 @@ while True:
     population = mutation(children)
     generations += 1
 
+# Graph
+plt.plot(list(range(generations+1)), fitness_tracker)
+plt.title('Fitness Score by Generation', fontsize=14, fontweight='bold')
+plt.xlabel('Generation')
+plt.ylabel('Fitness Score')
+plt.show()
