@@ -116,8 +116,11 @@ def mutation(children_set):
 7. Result
 
 ```python
-print(''.join([x[0] for x in fitness_scores if x[1] == max([x[1] for x in fitness_scores])][0]))
-
+while True:
+    print(''.join([x[0] for x in fitness_scores if x[1] == max([x[1] for x in fitness_scores])][0]))
+    if max([x[1] for x in fitness_scores]) == pre_length:
+        break
+        
 tello # 358th generation
 tello # 359
 Vello # 360
