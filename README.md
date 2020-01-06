@@ -118,14 +118,14 @@ def mutation(children_set):
 ```python
 print(''.join([x[0] for x in fitness_scores if x[1] == max([x[1] for x in fitness_scores])][0]))
 
-tello # 358
+tello # 358th generation
 tello # 359
 Vello # 360
 Vello # 361
-Vello # 362
+Vello # 362 ...
 Vello # 363
 Vello # 364
 Iello # 365
-Iello # 366
+Iello # 366th generation
 ...
 ```
