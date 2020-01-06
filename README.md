@@ -129,3 +129,8 @@ Iello # 365
 Iello # 366th generation
 ...
 ```
+
+<p align=center float="left">
+  <img width="45%" height="auto" src="https://github.com/Xenia101/A-Genetic-algorithm-for-prediction/blob/master/img/Figure_1.png?raw=true">
+  <img width="45%" height="auto" src="https://github.com/Xenia101/A-Genetic-algorithm-for-prediction/blob/master/img/Figure_2.png?raw=true">
+</p>
