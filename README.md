@@ -71,7 +71,6 @@ for x in range(n_population):
 5. Breeding
 
 ```python
-def breeding(parentA, parentB)
 def create_children(parents_pool)
 
 # children
