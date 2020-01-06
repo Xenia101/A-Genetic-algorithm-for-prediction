@@ -61,19 +61,71 @@ for x in range(n_population):
 
 ```python
 # select_parent(fitness(population))
-['9', 'X', 'H', 'g', 'o']
-['h', 'Q', 'f', '6', 'T']
-['h', '8', 'h', 'm', 'T']
-['a', 'z', 'S', 'c', 'T']
-['t', 'E', '1', 'B', 'T']
+['f', 'm', '9', 'r', 'F']
+['g', '8', 'q', 'R', 'R']
+['4', '4', 'G', 'b', 'M']
+['m', '4', 'I', 'h', 'b']
+['u', 'd', 'R', 'P', 'I']
 ```
 
 5. Breeding
 
 ```python
 def breeding(parentA, parentB)
-
 def create_children(parents_pool)
+
+# children
+['f', 'm', '9', 'r', 'F']
+['g', '8', 'q', 'R', 'R']
+['f', '8', 'q', 'R', 'R']
+['g', '8', 'q', 'R', 'F']
+['g', '8', 'q', 'r', 'F']
+['f', 'm', '9', 'R', 'R']
+['f', 'm', 'q', 'R', 'F']
+['g', '8', 'q', 'R', 'R']
+['f', 'm', '9', 'R', 'F']
+['g', '8', '9', 'r', 'F']
 ```
 
-6. 
+6. Mutation / Probability
+
+```python
+def mutation(children_set):
+    for x in range(len(children_set)):
+        if random.random() > 0.1: # Probability
+            continue
+        else:
+            mutated_position = int(random.random() * pre_length)
+            mutation = random.choice(character_list)
+            children_set[x][mutated_position] = mutation
+    return children_set
+
+# population
+['f', 'm', '9', 'r', 'F']
+['g', '8', 'q', 'R', 'R']
+['f', '8', 'q', 'R', 'R']
+['g', '8', 'q', 'R', 'F']
+['g', '8', 'q', 'r', 'F']
+['f', 'm', '9', 'R', 'R']
+['f', 'm', 'q', 'R', 'F']
+['g', '8', 'q', 'R', 'R']
+['f', 'm', '9', 'R', 'F']
+['g', '8', '9', 'r', 'F']
+```
+
+7. Result
+
+```python
+print(''.join([x[0] for x in fitness_scores if x[1] == max([x[1] for x in fitness_scores])][0]))
+
+tello
+tello
+Vello
+Vello
+Vello
+Vello
+Vello
+Iello
+Iello
+...
+```
