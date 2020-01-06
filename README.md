@@ -3,6 +3,11 @@
 유전 알고리즘을 이용한 (문자열)예측
 
 ### A Genetic Algorithm 란?
+
+<p align=center>
+  <img width="45%" height="auto" src="https://github.com/Xenia101/A-Genetic-algorithm-for-prediction/blob/master/img/algo.png?raw=true">
+</p>
+
 >In computer science and operations research, a genetic algorithm (GA) is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems by relying on bio-inspired operators such as mutation, crossover and selection.
 [WIKIPEDIA](https://en.wikipedia.org/wiki/Genetic_algorithm)
 
