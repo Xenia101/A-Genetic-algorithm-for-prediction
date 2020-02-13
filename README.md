@@ -21,11 +21,11 @@ Prediction of String using Genetic Algorithm
 1. Variables setting
 
 ```python
-pre_str = "Hello"         # 예측을 원하는 문자열
-pre_length = len(pre_str) # 위 문자열의 길이
-n_population = 10         # 유전자들의 수
-n_parents = 5             # 부모의 수
-n_elite = 2               # 돌연변이 수
+pre_str = "Hello"         # predictive string
+pre_length = len(pre_str) # Length of string
+n_population = 10         # number of genes
+n_parents = 5             # the number of parents
+n_elite = 2               # mutant number
 ```
 
 2. Initial population setting
