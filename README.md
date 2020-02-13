@@ -11,12 +11,12 @@
 >In computer science and operations research, a genetic algorithm (GA) is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems by relying on bio-inspired operators such as mutation, crossover and selection.
 [WIKIPEDIA](https://en.wikipedia.org/wiki/Genetic_algorithm)
 
-## 실행 환경
+## Execution / Test Environment
 
 - Windows 10
 - Python 3.6
 
-## 예시 / 동작 방식
+## EXAMPLE
 
 1. Variables setting
 
