@@ -1,6 +1,6 @@
 # A Genetic Algorithm for prediction
 
-유전 알고리즘을 이용한 (문자열)예측
+Prediction of String using Genetic Algorithm
 
 ### A Genetic Algorithm란?
 
