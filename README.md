@@ -14,11 +14,11 @@ Prediction of String using Genetic Algorithm
 ## Execution / Test Environment
 
 - Windows 10
-- Python 3.6
+- Python **3.6**
 
 ## EXAMPLE
 
-1. Variables setting
+1. Variables settings
 
 ```python
 pre_str = "Hello"         # predictive string
@@ -28,7 +28,7 @@ n_parents = 5             # the number of parents
 n_elite = 2               # mutant number
 ```
 
-2. Initial population setting
+2. Initial population settings
 
 ```python
 population = [] 
@@ -122,7 +122,7 @@ def mutation(children_set):
 ['g', '8', '9', 'r', 'F']
 ```
 
-7. Result
+7. Results
 
 ```python
 while True:
