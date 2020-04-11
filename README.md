@@ -1,6 +1,6 @@
 # A Genetic Algorithm for prediction
 
-Prediction of String using Genetic Algorithm
+Prediction of String using **Genetic Algorithm**
 
 ### A Genetic Algorithm란?
 
