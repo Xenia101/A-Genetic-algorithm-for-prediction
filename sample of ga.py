@@ -12,9 +12,9 @@ n_parents = 5
 n_elite = 2
 
 # Initial population setting
-population = []
+population = list()
 for x in range(n_population):
-    chromosome = []
+    chromosome = list()
     for xi in range(pre_length):
         chromosome.append(random.choice(string.ascii_letters + string.digits))
     population.append(chromosome)
